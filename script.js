@@ -10,7 +10,7 @@ function countdown() {
     totalSecondsEl.innerHTML = parseFloat(totalSeconds).toFixed(0);
 
     if (totalSeconds <= 0)  {
-        window.location.href = "file:///C:/Users/jbeuk/Documents/Jorn/project-secret/versie 2.html";
+        window.location.href = "versie 2.html";
     }
         
 }
