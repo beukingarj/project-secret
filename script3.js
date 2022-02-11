@@ -46,18 +46,6 @@ function countdown() {
         cirkel.style.setProperty('--element-top', top_css + 'px')
         cirkel.style.setProperty('--element-left', left_css + 'px')
     }
-
-    // cirkel.style.setProperty('--element-height', height + 'px')
-    // cirkel.style.setProperty('--element-width', width + 'px')
-    // cirkel.style.setProperty('--element-border-radius', border_radius + 'px')
-    // cirkel.style.setProperty('--element-top', top_css + 'px')
-    // cirkel.style.setProperty('--element-left', left_css + 'px')
-
-    // if (totalSeconds <= 0)  {
-    //     break
-    //     // window.location.href = "versie 2.html";
-    // }
-    
 }
 
 function formatTime(time) {

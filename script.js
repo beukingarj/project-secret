@@ -1,11 +1,10 @@
 const totalSecondsEl = document.getElementById("totalSeconds");
-const newYears = "1 May 2022";
+const endDate = new Date(2022, 3, 1, 0, 0, 0, 0);
 
 function countdown() {
-    const newYearsDate = new Date(newYears);
     const currentDate = new Date();
 
-    const totalSeconds = (newYearsDate - currentDate) / 1000;
+    const totalSeconds = (endDate - currentDate) / 1000;
 
     totalSecondsEl.innerHTML = parseFloat(totalSeconds).toFixed(0);
 
