@@ -92,10 +92,4 @@ h2 {
     margin: auto;
     border:5px solid rgb(255, 0, 0);
     /* filter: drop-shadow(10px,10px,3px,black); */
-    
-    top: var(--element-top);
-    left: var(--element-left);
-    width: var(--element-width);
-    height: var(--element-height);
-    border-radius: var(--element-border-radius);
 }

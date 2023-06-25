@@ -9,7 +9,7 @@ function countdown() {
     totalSecondsEl.innerHTML = parseFloat(totalSeconds).toFixed(0);
 
     if (totalSeconds <= 0)  {
-        window.location.href = "versie 2.html";
+        window.location.href = "nl.html";
     }
         
 }
