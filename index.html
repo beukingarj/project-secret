@@ -3,23 +3,23 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Timer</title>
+        <title>Time till event</title>
         <link rel="stylesheet" href="style.css" />
-        <script src="script.js" defer></script>
-
+        <script src="script2.js" defer></script>
     </head>
     <body>
-        <h1>LIEVE ALETTE</h1>
-        <!-- <h1>GEFELICITEERD MET JE VERJAARDAG!</h1> -->
-        <h2>GEFELICITEERD MET JE VERJAARDAG!</h2>
-        <h2>NOG</h2>
+        <h1>WAAR ZIJN DEZE BIJZONDERE PLEKKEN?</h1>
 
-        <div class="countdown-container">
-            <div class="countdown-el totalSeconds-c">
-                <p class="big-text" id="totalSeconds">0</p>
-                <span>seconden</span>
-            </div>
-            
+        <div class="quiz">
+            <label for="fname">Antwoord:</label>
+            <input type="text" class="output" id="output"/>
+            <input type="submit" value="Indienen" onclick="checkAnswer()">
+            <p id="AnswerCheck"> </p>
         </div>
+
+        <div class="summary">
+            <p id="AnswerCheck">  </p>
+        </div>
+    
     </body>
 </html>
