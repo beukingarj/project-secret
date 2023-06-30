@@ -15,7 +15,7 @@ function checkAnswer() {
     if (images[i].includes(document.getElementById("output").value.toLowerCase().replace(" ", "_"))) {
         i = i + 1;
         if (i == 7) {
-            window.location.href = "versie 3.html";
+            window.location.href = "nl.html";
         }
 
         document.body.style.backgroundImage = "url(" + images[i] + ")";
